@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="283.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="company.registerform.AfterLogin">
+   <children>
+      <Label layoutX="27.0" layoutY="103.0" prefHeight="78.0" prefWidth="546.0" text="YOU SUCCESFULLY LOGGED IN" textAlignment="CENTER" textFill="RED" wrapText="true">
+         <font>
+            <Font name="Chiller" size="54.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageView" fitHeight="59.0" fitWidth="79.0" layoutX="279.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://cdn.onlinewebfonts.com/svg/img_372476.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="backButton" layoutX="267.0" layoutY="197.0" mnemonicParsing="false" onAction="#backToLogin" prefHeight="33.0" prefWidth="67.0" style="-fx-border-color: green; -fx-background-color: purple;" text="Back" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

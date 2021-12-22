@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="283.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="company.registerform.mainPage">
+   <children>
+      <Button fx:id="signIn" accessibleText="nigga" layoutX="259.0" layoutY="91.0" mnemonicParsing="false" onAction="#goToLogin" prefHeight="37.0" prefWidth="82.0" style="-fx-background-color: purple; -fx-border-color: green;" text="Sign in" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="signUp" layoutX="259.0" layoutY="142.0" mnemonicParsing="false" onAction="#goToRegister" style="-fx-border-color: green; -fx-background-color: purple;" text="Sign up" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label accessibleHelp="nigga" alignment="CENTER" contentDisplay="TOP" layoutX="45.0" layoutY="20.0" text="LOGIN-AND-REGISTRATI-NATOR 3000">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.494475138121547" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.038314176245210725">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.12260536398467432">
+                     <color>
+                        <Color red="0.8947368264198303" green="0.04556530341506004" blue="0.04556530341506004" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6015325670498082">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="deleteAcc" layoutX="231.0" layoutY="195.0" mnemonicParsing="false" onAction="#goToDeleteAcc" style="-fx-border-color: green; -fx-background-color: purple;" text="Delete Account" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
